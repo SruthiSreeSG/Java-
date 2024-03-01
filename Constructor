@@ -1,0 +1,13 @@
+public class College {
+    private int regno;
+    public College(int Num) {
+        regno = Num;
+        System.out.println("The reg no for college " + regno);
+    }
+    
+    public static void main(String[] args) {
+        int reg = 7111; 
+        College college = new College(reg);
+        
+    }
+}
